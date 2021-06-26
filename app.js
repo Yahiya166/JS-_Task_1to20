@@ -164,4 +164,124 @@
 
 
 
-// ******* Chapter #5 ************
+// ******* Chapter #5    ************
+
+// ******* Q1 ************
+
+// var a = 3;
+// var b = 5;
+// var c = a+b;
+
+// document.write("sum of " + a + " and " + b + " is " + c);
+
+
+
+// ******* Q2 ************
+
+// Subtraction
+
+// var a = 5;
+// var b = 3;
+// var c = a-b;
+
+// document.write("sum of " + a + " and " + b + " is " + c);
+
+
+// Multipilication
+
+// var a = 3;
+// var b = 5;
+// var c = a*b;
+
+// document.write("sum of " + a + " and " + b + " is " + c);
+
+
+// Division
+
+// var a = 3;
+// var b = 5;
+// var c = a/b;
+
+// document.write("sum of " + a + " and " + b + " is " + c);
+
+
+
+// ******* Q3 ************
+
+// var value = "undefined";
+
+// document.write("Value after variable declaration is: " + value);
+
+// var initial_val = 5;
+
+// document.write("<br> <br> Initial value: " + initial_val);
+
+// initial_val = ++initial_val;
+
+// document.write(" <br> Value after increment is: " + initial_val);
+
+// initial_val = initial_val + 7;
+
+// document.write(" <br> Value after addition: " + initial_val);
+
+
+// initial_val = --initial_val;
+
+// document.write(" <br> Value after decrement: " + initial_val);
+
+// initial_val = initial_val / 3;
+
+// document.write(" <br> The remainder is : " + initial_val);
+
+
+// ******* Q4 ************
+
+// var ticket_cost = 600;
+// var buying_ticket_cost = 5;
+
+// var total_cost = ticket_cost * buying_ticket_cost;
+
+// document.write("Total cost to buy " + buying_ticket_cost + " tickets to a movie is " + total_cost + "PKR");
+
+
+
+// ******* Q5 ************
+
+// var table = 4;
+
+// var table_4_2 = table * 2;
+// var table_4_3 = table * 3;
+// var table_4_4 = table * 4;
+// var table_4_5 = table * 5;
+// var table_4_6 = table * 6;
+// var table_4_7 = table * 7;
+// var table_4_8 = table * 8;
+// var table_4_9 = table * 9;
+// var table_4_10 = table * 10;
+
+// document.write("Table of " + table);
+// document.write("<br>");
+// document.write("<br>");
+// document.write(table + "x" + "1 = " + table);
+// document.write("<br>");
+// document.write(table + "x" + "2 = " + table_4_2);
+// document.write("<br>");
+// document.write(table + "x" + "3 = " + table_4_3);
+// document.write("<br>");
+// document.write(table + "x" + "4 = " + table_4_4);
+// document.write("<br>");
+// document.write(table + "x" + "5 = " + table_4_5);
+// document.write("<br>");
+// document.write(table + "x" + "6 = " + table_4_6);
+// document.write("<br>");
+// document.write(table + "x" + "7 = " + table_4_7);
+// document.write("<br>");
+// document.write(table + "x" + "8 = " + table_4_8);
+// document.write("<br>");
+// document.write(table + "x" + "9 = " + table_4_9);
+// document.write("<br>");
+// document.write(table + "x" + "10 = " + table_4_10);
+
+
+
+// ******* Q6 ************
