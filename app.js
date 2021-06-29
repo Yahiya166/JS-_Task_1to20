@@ -285,3 +285,210 @@
 
 
 // ******* Q6 ************
+
+// var celsius = 25;
+// var fah = (celsius * 9 / 5) + 32;
+// document.write(celsius + "<sup>0</sup> C is " + fah + "<sup>0</sup> F");
+
+// document.write("<br>");
+// document.write("<br>");
+
+// var fahrenhiet = 70;
+// var cel = (fahrenhiet - 32) * 5 / 9;
+// document.write(fahrenhiet + "<sup>0</sup> F is " + cel + "<sup>0</sup> C");
+
+
+// ******* Q7 ************
+
+// var priceItem_1 = 650;
+// var priceItem_2 = 100;
+// var quantityItem_1 = 3;
+// var quantityItem_2 = 7;
+// var shipping_charges = 100;
+
+// var total = priceItem_2 * 7 + priceItem_1 * 3 + shipping_charges;
+
+// document.write("<h1>Shopping Cart</h1>");
+// document.write("<br>");
+// document.write("<br>");
+// document.write("<br>");
+
+// document.write("Price of item 1 is: " + priceItem_1 + "<br>" + "Quantity of item 1: " + quantityItem_1 + "<br>" + "price of item 2: " + priceItem_2 + "<br>" + "Quantity of item 2: " + quantityItem_2 + "<br>" + "Shipping Charges: " + shipping_charges);
+
+
+// ******* Q8 ************
+
+// var total_marks = 980;
+// var mark_obtain = 804;
+
+// var percentage = 100 * mark_obtain / total_marks;
+
+// document.write("Total marks: " + total_marks + "<br>" + "Marks obtained: " + mark_obtain + "<br>" + "percentage: " + percentage);
+
+
+// ******* Q9 ************
+
+// var US_dollar = 10;
+// var Sudia_Riyal = 25;
+
+// var pkr_us = 104.80;
+// var pkr_riyal = 28;
+
+// var total = pkr_us * US_dollar + pkr_riyal * Sudia_Riyal;
+
+// document.write("Total Currency in PKR: " + total)
+// alert(add);
+
+
+// ******* Q10 ************
+
+// var init = 10;
+
+// var arth = init + 5 * 10 / 2;
+
+// document.write(arth);
+
+
+// ******* Chapter # 6 to 9   ************
+
+// *******  Q1 ************
+
+// var a = 10;
+
+// document.write("Result: <br> The value of a is: " + a);
+// document.write("<br> ........................................... <br>");
+
+// num_1 = ++a; 
+// num_2 = a + a++; 
+
+// alert(num_2);
+
+
+// *******  Q2 ************
+
+// var a = 2;
+// var b = 1;
+
+
+// var Result = --a - --b + ++b + b--;
+
+
+// document.write("a = 2; <br> b = 1; <br> <br> --a - --b + ++b + b--; <br> 1 - 0 + 1 + 1; <br> 1 - 0 + 2; <br> 1 + 2; <br>" + Result);
+
+
+// *******  Q3 ************
+
+// var greet = prompt("Enter your Name");
+
+// alert("Wellcome " + greet)
+
+
+// *******  Q4 ************
+
+
+// var num = +prompt("Enter Number",);
+// var num_1 = +prompt("Enter when its end Number",);
+
+// document.write('<table border="1" cellspacing="0">');
+
+// if (num === num) {
+    //     for (i = 1; i <= num_1; i++) {
+        //         document.write("<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
+        //     }
+        // } else {
+            //     var tab = 5;
+            //     for (i = 1; i <= 10; i++) {
+                //         document.write("<tr><td>" + tab + " x " + i + " = " + tab * i + "</td></tr>");
+                //     }
+                // }
+
+
+// *******  Q5 ************
+
+// var English = +prompt("Enter you English Subjects");
+// var Urdu = +prompt("Enter you Urdu Subjects");
+// var Math = +prompt("Enter you Math Subjects");
+
+// var total_marks = English + Urdu + Math;
+
+// var total_marks_per = 100; 
+
+// var per = 100 * total_marks / 300;
+
+// document.write('<table border="0" cellspacing="0">');
+// document.write("<tr><th> Subject </th> <th> Total Marks </th> <th> Obtained Marks </th> <th> Percentage  </th></tr>")
+// document.write("<tr><th> English </th> <td> " + total_marks_per + " </td> <td> " + English + " </td> <td> " + English + "% </td></tr>")
+// document.write("<tr><th> Urdu </th> <td> " + total_marks_per + " </td> <td> " + Urdu + " </td> <td> " + Urdu + "% </td></tr>")
+// document.write("<tr><th> Math </th> <td> " + total_marks_per + " </td> <td> " + Math + " </td> <td> " + Math + "%  </td></tr>")
+// document.write("<tr><th> Total </th> <td> 300 </td> <td> "+ total_marks +" </td> <td> " + per + "% </td></tr>")
+
+
+// ******* Chapter # 9 to 11   ************
+
+// *******  Q1 ************
+
+// var city = prompt("Enter your city name");
+
+// alert("Welcome to the city of " + city);
+
+
+// *******  Q2 ************
+
+// var gender = prompt("Enter your gender");
+
+
+// if (gender == "male") {
+//     alert("Good Morning Sir");
+// } else {
+//     alert("Good Morning Ma'am");
+// }
+
+
+// *******  Q3 ************
+
+
+// var color = prompt("Enter the traffic light color");
+
+// if (color == "red") {
+//     // alert("Must Stop")
+//     document.write("<table border = '1' ><tr><td> Red </td><td>  'Must Stop'   </td></tr></table>")
+// }else if(color == "yellow") {
+//     document.write("<table border = '1' ><tr><td> Yellow </td><td>  'Ready to move'   </td></tr></table>")
+// }else if(color == "green") {
+//     document.write("<table border = '1' ><tr><td> Green </td><td>  'Move now'   </td></tr></table>")
+// }
+
+
+// *******  Q4 ************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var password1 = "Hello";
+// var password2 = "World";
+
+ // var password = prompt("Enter your first password");
+// var password_ = prompt("Enter your second password");
+
+// if (password == false & password_ == false) {
+//     alert("Please enter your password")
+// } else if (password === password1 & password_ === password2) {
+//     alert("“Correct! The password you entered matches the original password")
+// } else {
+//     alert("Incorrect")
+// };
