@@ -461,13 +461,188 @@
 
 // *******  Q4 ************
 
+// var input = +prompt("Enter your car fuel");
+
+// if (input <= 0.25) {
+    //     alert("Please refill the fuel in your car")
+    // }
+    
+    
+// *******  Q5 ************
+
+// --------a--------
+
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+// --------b--------
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is not true");
+// }
+
+// --------c--------
+
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// --------d--------
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// --------e--------
+
+// if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }
+
+// --------f--------
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
 
 
 
+// *******  Q6 ************
+
+// var obtained_marks = +prompt("Enter your three subjects of obtained marks"); 
+// var total_marks = +prompt("Enter your total marks");
+
+// var per = 100 * obtained_marks / total_marks;
+
+// document.write("<h1>Marks Sheet</h1>")
+
+// if(per >= 80 && per <= 100){
+//     document.write("Total Marks: " + total_marks + "<br>");
+//     document.write("Marks Obtained: " + obtained_marks + "<br>");
+//     document.write("Percentage: " + per + "<br>");
+//     document.write("Grade: A-one <br>");
+//     document.write("Remarks: Exellent");
+// }else if (per >= 70 && per <=80){
+//     document.write("Total Marks: " + total_marks + "<br>");
+//     document.write("Marks Obtained: " + obtained_marks + "<br>");
+//     document.write("Percentage: " + per + "<br>");
+//     document.write("Grade: A <br>");
+//     document.write("Remarks: Good");
+// }else if (per >= 60 && per <=70){
+//     document.write("Total Marks: " + total_marks + "<br>");
+//     document.write("Marks Obtained: " + obtained_marks + "<br>");
+//     document.write("Percentage: " + per + "<br>");
+//     document.write("Grade: B <br>");
+//     document.write("Remarks: You need to improve");
+// }else if (per < 60){
+//     document.write("Total Marks: " + total_marks + "<br>");
+//     document.write("Marks Obtained: " + obtained_marks + "<br>");
+//     document.write("Percentage: " + per + "<br>");
+//     document.write("Grade: Fail <br>");
+//     document.write("Remarks: Sorry");
+// }
+
+
+// *******  Q7 ************
+
+// var secret_num = 1;
+
+// var user = +prompt("Enter the secret number");
+
+// if(user === secret_num){
+//     alert("Bingo! Correct answer")
+// }else if (user === +1){
+//     alert("Close enough to the correct answer")
+// }
+
+
+// *******  Q8 ************
+
+// var divide = +prompt("Enter the number");
+
+// if (divide = divide /3 ){
+//     alert(divide)
+// }
+
+
+// *******  Q9 ************
+
+
+// var even = [2,4,6,8,10];
+// var odd = [1,3,5,7,9,11];
+
+// var prop =+prompt("enter the num");
+
+// if(prop = even) {
+//     alert("these are even numbers")
+// }else if (prop = odd){
+//     alert("these are odd numbers")
+// }
+
+
+// *******  Q10(N) ************
+
+// var temp = +prompt("Enter the temperature number");
+
+// if(temp > 10) {
+//     alert("OMG! Today’s weather is so Cool")
+// }else if (temp > 20){
+//     alert("Today’s Weather is cool")
+// }else if (temp > 30){
+//     alert("The Weather today is Normal")
+// }else if (temp > 40){
+//     alert("It is too hot outside")
+// }
+
+
+// *******  Q11 ************
+
+
+// var operator = prompt('Enter operator ( +, -, * or / ): ');
+
+// var number1 = +(prompt('Enter first number: '));
+// var number2 = +(prompt('Enter second number: '));
+
+// var result;
 
 
 
-
+// if (operator == '+') {
+//     result = number1 + number2;
+//     alert(`${number1} ${operator} ${number2} = ${result}`);
+// }
+// else if (operator == '-') {
+//     result = number1 - number2;
+//     alert(`${number1} ${operator} ${number2} = ${result}`);
+// }
+// else if (operator == '*') {
+//     result = number1 * number2;
+//     alert(`${number1} ${operator} ${number2} = ${result}`);
+// }
+// else {
+//     result = number1 / number2;
+//     alert(`${number1} ${operator} ${number2} = ${result}`);
+// }
 
 
 
