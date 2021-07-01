@@ -646,7 +646,7 @@
 
 
 
-// ******* Chapter # 12 to 13      ************  
+// *******  Chapter # 12 to 13  ************  
 
 
 // ******** Q1 **************
@@ -798,4 +798,324 @@
 
 // ******* Chapter # 14 to 16   ************
 
-// ******** Q1 **************
+// ******** Q1 & Q2 **************
+
+// var arr = [];
+
+
+// ******** Q3 **************
+
+// var arr = ["Hello","World","String"];
+
+
+// ******** Q4 **************
+
+// var arr = [1,2,3,4,5];
+
+
+// ******** Q5 **************
+
+// var arr = [true,false];
+
+
+// ******** Q6 **************
+
+// var arr = ["Hello",123,true,false,undefined,null,[],];
+
+
+// ******** Q7 **************
+
+// var arr = [" SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+// document.write("Qualifications: <br> <br>");
+
+// document.write("1)" + arr[0] + "<br>");
+// document.write("2)" + arr[1] + "<br>");
+// document.write("3)" + arr[2] + "<br>");
+// document.write("4)" + arr[3] + "<br>");
+// document.write("5)" + arr[4] + "<br>");
+// document.write("6)" + arr[5] + "<br>");
+// document.write("7)" + arr[6] + "<br>");
+// document.write("8)" + arr[7] + "<br>");
+
+
+// ******** Q8 **************
+
+// var arr_1 = ["Muhammad","Yahiya","Asif"];
+// var arr_2 = [480,320,230];
+
+// var totalMarks = 500;
+
+// var per_1 = 100 * arr_2[0] / totalMarks;
+// var per_2 = 100 * arr_2[1] / totalMarks;
+// var per_3 = 100 * arr_2[2] / totalMarks;
+
+// document.write("Score of " + arr_1[0] + " is " + arr_2[0] + ". " + "Percentage: " + per_1 + "% <br>");
+// document.write("Score of " + arr_1[1] + " is " + arr_2[1] + ". " + "Percentage: " + per_2 + "% <br>");
+// document.write("Score of " + arr_1[2] + " is " + arr_2[2] + ". " + "Percentage: " + per_3 + "% <br>");
+
+
+// ******** Q9 **************
+
+// var arr = ["Red", "Blue", "Orange", "Green", "Black", "Pink"];
+
+// document.write(arr + "<br>");
+
+// ******** a *********
+
+// var inp = prompt("What Color you wants to add the beginning");
+
+// arr.unshift(inp);
+
+// ******** b *********
+
+// var inp = prompt("What Color you wants to add the End");
+
+// arr.push(inp);  
+
+// ******** c *********
+
+// var inp = prompt("What first Color you wants to add the Beginning");
+// var inp1 = prompt("What second Color you wants to add the Beginning");
+
+// arr.unshift(inp,inp1);
+
+
+// ******** d *********
+
+// arr.shift();
+
+
+// ******** e *********
+
+// arr.pop();
+
+
+// ******** f *********
+
+// var inp = +prompt("Enter which index you want to add the color");
+// var inp1 = prompt("Enter the color");
+
+// arr.splice(inp,0,inp1);
+
+
+// ******** g *********
+
+// var inp = +prompt("Enter which first index you want to delete the color");
+// var inp1 = +prompt("Enter which second index you want to delete the color");
+
+// var arrr = arr.slice(inp,inp1)
+
+// document.write(arrr);
+
+
+
+
+// document.write(arr);
+
+
+// ******** Q10 **************
+
+// var arr = [320,230,480,120];
+
+// document.write("Score of Students: " + arr + "<br><br>");
+
+// arr.sort();
+
+// document.write("Ordered Score of Students: " + arr);
+
+
+// ******** Q11 *************
+
+// var cities_arr = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+
+// document.write("Cities list: <br> " + cities_arr + "<br> <br>");
+
+// cities_arr.splice(0,3,)
+
+// document.write("Selected Cities list: <br> " + cities_arr);
+
+
+// ******** Q12(N) *************
+
+// var arr = ["This ", " is ", " my ", " cat "];
+
+// document.write("Array: <br>" + arr + "<br><br>");
+
+// arr.join();
+
+// document.write("String: <br>" + arr );
+
+
+// ******** Q13 *************
+
+// var arr = ["Keyboard","mouse","printer","moniter"];
+
+// document.write("Devices: <br>" + arr + "<br><br>");
+
+// document.write("Out: <br>" + arr[0] + "<br>");
+// document.write("Out: <br>" + arr[1] + "<br>");
+// document.write("Out: <br>" + arr[2] + "<br>");
+// document.write("Out: <br>" + arr[3] + "<br>");
+
+
+// ******** Q14 *************
+
+// var arr = ["Keyboard","mouse","printer","moniter"];
+
+// document.write("Devices: <br>" + arr + "<br><br>");
+
+// document.write("Out: <br>" + arr[3] + "<br>");
+// document.write("Out: <br>" + arr[2] + "<br>");
+// document.write("Out: <br>" + arr[1] + "<br>");
+// document.write("Out: <br>" + arr[0] + "<br>");
+
+
+// ******** Q15 *************
+
+// var phoneStore_arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony & Haier"];
+
+
+// document.write("<select name='Phone Store'><option value='"+phoneStore_arr[0] +" checked'>" + phoneStore_arr[0] + "</option><option value='"+phoneStore_arr[1] +"'>" + phoneStore_arr[1] + "</option><option value='"+phoneStore_arr[2] +"'>" + phoneStore_arr[2] + "</option><option value='"+phoneStore_arr[3] +"'>" + phoneStore_arr[3] + "</option><option value='"+phoneStore_arr[4] +"'>" + phoneStore_arr[4] + "</option><select")
+
+
+
+// *******  Chapter # 17 to 20  ************
+
+// ******** Q1 *************
+
+// var arr = [];
+
+
+// ******** Q2 *************
+
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// document.write(arr[0] + "<br>" + arr[1] + "<br>" + arr[2])
+
+
+// ******** Q3 *************
+
+
+// for(var i = 1; i <= 10; i++){
+//     document.write(i+ "<br>")
+// }
+
+
+// ******** Q4 *************
+
+// var input_1 = +prompt("Enter a number to show its multiplication table");
+// var input_2 = +prompt("Enter length multiplication table");
+
+// document.write("Multiplication table of " + input_1 + "<br> length " + input_2 + "<br><br>");
+
+// for(var i = 1; i <= input_2; i++){
+//     document.write(input_1 + " X " + i + " = " + input_1*i + "<br>")
+// }
+
+
+// ******** Q5 *************
+
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+
+// for (var i = 0; i < fruits.length; i++){
+//     document.write(fruits[i] + "<br>")
+//     document.write(" Element at index " + [i] + " is " + fruits[i] +"<br>")
+// }
+
+
+// ******** Q6 *************
+
+
+// ******** a *************
+
+// document.write("Coungting: <br>")
+
+// for (var i = 1; i <= 15; i++){
+//     document.write(i+",")
+// }
+
+// ******** b *************
+
+// document.write("Reverse Counting: <br>")
+
+// for (var i = 15; i >= 1; i--){
+//     document.write(i+",")
+// }
+
+// ******** c *************
+
+// document.write("odd: <br>")
+
+// for (var i = 2; i <= 20 ; i+=2) {
+//     document.write(i + ",")
+// }
+
+// ******** d *************
+
+// document.write("Series: <br>")
+
+// for (var i = 2; i <= 20 ; i+=2) {
+//     document.write(i + "K , ")
+// }
+
+
+// ******** Q7(N) *************
+
+
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// var inp = prompt("Welcome to ABC Bakery.What do you want to order sir/maa'am?");
+
+// var matchFound = true;
+
+// for (var i = 0; i < arr.length; i++) {
+//     if(arr == inp){
+//         matchFound === false;
+//         document.write(inp + " is <b>available</b> at index " + i + " in our bakery") 
+//     }
+// }
+
+// if(matchFound === true){
+//     document.write("We are sorry. " + inp + " is <b>not avialable </b> in our bakery")
+// }
+
+
+// ******** Q8 *************
+
+// var array = [24, 53, 78, 91, 12];
+// var largest = 0;
+
+// document.write("Array items: " + array + "<br>");
+
+// for (i = 0; i < array.length; i++) {
+//     if (array[i] > largest) {
+//         largest = array[i];
+//     }
+// }
+// document.write("The largest number is: " + largest)
+
+
+// ******** Q9 *************
+
+// var array = [24, 53, 78, 91, 12];
+// var smallest = array[0];
+
+// document.write("Array items: " + array + "<br>");
+
+// for (i = 0; i <= array.length; i++) {
+//     if (array[i] < smallest) {
+//         smallest = array[i];
+//     }
+// }
+// document.write("The largest number is: " + smallest)
+
+
+
+
+
+// ******** Q10 *************
+
+// for(var i = 5; i <= 100; i+=5){
+//     document.write(i + ", ")
+// }
