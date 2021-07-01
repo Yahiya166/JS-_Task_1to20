@@ -392,15 +392,15 @@
 // document.write('<table border="1" cellspacing="0">');
 
 // if (num === num) {
-    //     for (i = 1; i <= num_1; i++) {
-        //         document.write("<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
-        //     }
-        // } else {
-            //     var tab = 5;
-            //     for (i = 1; i <= 10; i++) {
-                //         document.write("<tr><td>" + tab + " x " + i + " = " + tab * i + "</td></tr>");
-                //     }
-                // }
+//     for (i = 1; i <= num_1; i++) {
+//         document.write("<tr><td>" + num + " x " + i + " = " + num * i + "</td></tr>");
+//     }
+// } else {
+//     var tab = 5;
+//     for (i = 1; i <= 10; i++) {
+//         document.write("<tr><td>" + tab + " x " + i + " = " + tab * i + "</td></tr>");
+//     }
+// }
 
 
 // *******  Q5 ************
@@ -464,10 +464,10 @@
 // var input = +prompt("Enter your car fuel");
 
 // if (input <= 0.25) {
-    //     alert("Please refill the fuel in your car")
-    // }
-    
-    
+//     alert("Please refill the fuel in your car")
+// }
+
+
 // *******  Q5 ************
 
 // --------a--------
@@ -646,18 +646,74 @@
 
 
 
+// ******* Chapter # 12 to 13      ************  
 
 
+// ******** Q1 **************
+
+// var input = +prompt("Enter the number");
+
+// if( input >= 65 && input <= 90){
+//     alert("Character is a Capital Letter A to Z")
+// }else if (input >=97 && input <= 122){
+//     alert("Character is a Small Letter a to z")
+// }
 
 
+// ******** Q2 **************
+
+// var num1;
+// var num2;  
 
 
+// num1 = +prompt("Input the First integer");  
+// num2 = +prompt("Input the second integer");  
 
+// if(num1,10 > num2,10)   
+//   {   
+//   alert("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");  
+//   }     
+// else  
+//   if(num2,10 > num1, 10)   
+//   {  
+//   alert("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");  
+//   }                    
+// else  
+//   {  
+//    alert("The values "+ num1+ " and "+num2+ " are equal.");  
+//   }  
+
+
+// ******** Q3 **************
+
+// var input = +prompt("Enter the number");
+
+// if(input > 0){
+//     alert("The number is positive")
+// }else if (input === 0){
+//     alert("The number is zero")
+// }else(
+//     alert("The number is negative")
+// )
+
+
+// ******** Q4 **************
+
+// var char = prompt("Enter a word");
+
+// if(char === "a" || char ==="e" || char === "i" || char === "o" || char === "u"){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+// ******** Q5 **************
 
 // var password1 = "Hello";
 // var password2 = "World";
 
- // var password = prompt("Enter your first password");
+//  var password = prompt("Enter your first password");
 // var password_ = prompt("Enter your second password");
 
 // if (password == false & password_ == false) {
@@ -667,3 +723,79 @@
 // } else {
 //     alert("Incorrect")
 // };
+
+
+
+// ******** Q6 **************
+
+// var greeting;
+// var hour = 13;
+
+// if (hour <= 13) {
+//     greeting = "Good day";
+//     alert(greeting)
+// } else {
+//     greeting = "Good evening";
+//     alert(greeting)
+// }
+
+
+// ******** Q7 **************
+
+// var input = +prompt("Enter hours");
+
+// if (input === 1) {
+//     alert("Its 1 AM")
+// } else if (input === 2) {
+//     alert("Its 2 AM")
+// } else if (input === 3) {
+//     alert("Its 3 AM")
+// } else if (input === 4) {
+//     alert("Its 4 AM")
+// } else if (input === 5) {
+//     alert("Its 5 AM")
+// } else if (input === 6) {
+//     alert("Its 6 AM")
+// } else if (input === 7) {
+//     alert("Its 7 AM")
+// } else if (input === 8) {
+//     alert("Its 8 AM")
+// } else if (input === 9) {
+//     alert("Its 9 AM")
+// } else if (input === 10) {
+//     alert("Its 10 AM")
+// } else if (input === 11) {
+//     alert("Its 11 AM")
+// } else if (input === 12) {
+//     alert("Its 12 PM")
+// } else if (input === 13) {
+//     alert("Its 1 pM")
+// } else if (input === 14) {
+//     alert("Its 2 PM")
+// } else if (input === 15) {
+//     alert("Its 3 PM")
+// } else if (input === 16) {
+//     alert("Its 4 PM")
+// } else if (input === 17) {
+//     alert("Its 5 PM")
+// } else if (input === 18) {
+//     alert("Its 6 PM")
+// } else if (input === 19) {
+//     alert("Its 7 PM")
+// } else if (input === 20) {
+//     alert("Its 8 PM")
+// } else if (input === 21) {
+//     alert("Its 9 PM")
+// } else if (input === 22) {
+//     alert("Its 10 PM")
+// } else if (input === 23) {
+//     alert("Its 11 PM")
+// } else if (input === 24) {
+//     alert("Its 12 AM")
+// }
+
+
+
+// ******* Chapter # 14 to 16   ************
+
+// ******** Q1 **************
